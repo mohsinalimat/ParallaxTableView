@@ -11,6 +11,7 @@ You must inherited from classes SPParallaxTableViewController for your tableView
 ## Advice
 If you want use some small elements with paralax - place its on transparent view and add view in "parallaxViews" array
 
+![](/resources/paralax-table-view - use with small elements baner.jpg)
 
 ## Other
 In the project you will find my library [Sparrow](https://github.com/IvanVorobei/Sparrow), it's what I use. But if needed, you can easily to remove it and do not use [Sparrow](https://github.com/IvanVorobei/Sparrow) in their projects 
