@@ -3,7 +3,7 @@
 ## About
 Project with example of how to use the parallax. The idea is to calculate the position of the element relative to its position on the screen. Cell class has been expanded to show how to use the parallax in your projects
 
-<img src="https://raw.githubusercontent.com/IvanVorobei/ParallaxTableView/master/resources/paralax-table-view - example animated baner.gif" width="600">
+<img src="https://raw.githubusercontent.com/IvanVorobei/ParallaxTableView/master/resources/paralax-table-view - preview animated baner.gif" width="600">
 
 ## How use
 You must inherited from classes SPParallaxTableViewController for your tableViewController and SPParallaxTableViewCell for your tableViewCell. Do not forget overide table view data source methods. In array "parallaxViews" in SPParallaxTableViewCell you nedd add views, which must show with paralax.
