@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4B874EF1DE20635009455F9 /* SPLaunchAnimationSlideExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B874EE1DE20635009455F9 /* SPLaunchAnimationSlideExtenshion.swift */; };
+		F4C02F741DE0A4B0004DA7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F731DE0A4B0004DA7EE /* AppDelegate.swift */; };
+		F4C02FBE1DE0A4C5004DA7EE /* SPAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F871DE0A4C5004DA7EE /* SPAnimation.swift */; };
+		F4C02FBF1DE0A4C5004DA7EE /* SPAnimationSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F881DE0A4C5004DA7EE /* SPAnimationSpring.swift */; };
+		F4C02FC01DE0A4C5004DA7EE /* SPAnimationUpward.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F891DE0A4C5004DA7EE /* SPAnimationUpward.swift */; };
+		F4C02FC11DE0A4C5004DA7EE /* SPAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F8B1DE0A4C5004DA7EE /* SPAudioPlayer.swift */; };
+		F4C02FC21DE0A4C5004DA7EE /* SPUIColorExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F8D1DE0A4C5004DA7EE /* SPUIColorExtenshion.swift */; };
+		F4C02FC31DE0A4C5004DA7EE /* SPConstraintsAssistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F8F1DE0A4C5004DA7EE /* SPConstraintsAssistent.swift */; };
+		F4C02FC41DE0A4C5004DA7EE /* SPDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F911DE0A4C5004DA7EE /* SPDelay.swift */; };
+		F4C02FC51DE0A4C5004DA7EE /* SPUIDeviceExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F931DE0A4C5004DA7EE /* SPUIDeviceExtenshion.swift */; };
+		F4C02FC61DE0A4C5004DA7EE /* SPBezierPathFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F961DE0A4C5004DA7EE /* SPBezierPathFigure.swift */; };
+		F4C02FC71DE0A4C5004DA7EE /* SPUIImageExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F981DE0A4C5004DA7EE /* SPUIImageExtenshion.swift */; };
+		F4C02FC81DE0A4C5004DA7EE /* SPInternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F9A1DE0A4C5004DA7EE /* SPInternetConnection.swift */; };
+		F4C02FC91DE0A4C5004DA7EE /* SPLaunchAnimationTwitterExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02F9E1DE0A4C5004DA7EE /* SPLaunchAnimationTwitterExtenshion.swift */; };
+		F4C02FCA1DE0A4C5004DA7EE /* TwitterLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C02F9F1DE0A4C5004DA7EE /* TwitterLaunchScreen.storyboard */; };
+		F4C02FCB1DE0A4C5004DA7EE /* TwitterMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C02FA01DE0A4C5004DA7EE /* TwitterMedia.xcassets */; };
+		F4C02FCC1DE0A4C5004DA7EE /* SPLaunchAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FA11DE0A4C5004DA7EE /* SPLaunchAnimation.swift */; };
+		F4C02FCD1DE0A4C5004DA7EE /* SPRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FA31DE0A4C5004DA7EE /* SPRandom.swift */; };
+		F4C02FCE1DE0A4C5004DA7EE /* SPIconsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FA61DE0A4C5004DA7EE /* SPIconsButton.swift */; };
+		F4C02FCF1DE0A4C5004DA7EE /* SPLinesCircleButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FA71DE0A4C5004DA7EE /* SPLinesCircleButtonsView.swift */; };
+		F4C02FD01DE0A4C5004DA7EE /* SPRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FA81DE0A4C5004DA7EE /* SPRoundButton.swift */; };
+		F4C02FD11DE0A4C5004DA7EE /* SPGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FAA1DE0A4C5004DA7EE /* SPGradientViewController.swift */; };
+		F4C02FD21DE0A4C5004DA7EE /* SPPageItemsScallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FAB1DE0A4C5004DA7EE /* SPPageItemsScallingViewController.swift */; };
+		F4C02FD31DE0A4C5004DA7EE /* SPParalaxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FAC1DE0A4C5004DA7EE /* SPParalaxTableViewController.swift */; };
+		F4C02FD41DE0A4C5004DA7EE /* SPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FB01DE0A4C5004DA7EE /* SPCollectionViewCell.swift */; };
+		F4C02FD51DE0A4C5004DA7EE /* SPPageItemsScalingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FB21DE0A4C5004DA7EE /* SPPageItemsScalingCollectionView.swift */; };
+		F4C02FD61DE0A4C5004DA7EE /* SPPageItemsScalingCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FB41DE0A4C5004DA7EE /* SPPageItemsScalingCollectionLayout.swift */; };
+		F4C02FD71DE0A4C5004DA7EE /* SPParallaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FB71DE0A4C5004DA7EE /* SPParallaxTableViewCell.swift */; };
+		F4C02FD81DE0A4C5004DA7EE /* SPBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FBA1DE0A4C5004DA7EE /* SPBlurView.swift */; };
+		F4C02FD91DE0A4C5004DA7EE /* SPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FBB1DE0A4C5004DA7EE /* SPGradientView.swift */; };
+		F4C02FDA1DE0A4C5004DA7EE /* SPUILabelExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FBC1DE0A4C5004DA7EE /* SPUILabelExtenshion.swift */; };
+		F4C02FDB1DE0A4C5004DA7EE /* SPUIViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FBD1DE0A4C5004DA7EE /* SPUIViewExtenshion.swift */; };
+		F4C02FDD1DE0A93D004DA7EE /* DataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FDC1DE0A93D004DA7EE /* DataAPI.swift */; };
+		F4C02FDF1DE0A9A5004DA7EE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FDE1DE0A9A5004DA7EE /* NavigationController.swift */; };
+		F4C02FE11DE0A9E5004DA7EE /* ParallaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FE01DE0A9E5004DA7EE /* ParallaxTableViewCell.swift */; };
+		F4C02FE31DE0AA85004DA7EE /* ParallaxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FE21DE0AA85004DA7EE /* ParallaxTableViewController.swift */; };
+		F4C02FE51DE0AB25004DA7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C02FE41DE0AB25004DA7EE /* Main.storyboard */; };
+		F4C02FE71DE0B5C8004DA7EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C02FE61DE0B5C8004DA7EE /* Assets.xcassets */; };
+		F4C02FE91DE0B613004DA7EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C02FE81DE0B613004DA7EE /* LaunchScreen.storyboard */; };
+		F4C02FEB1DE0BC44004DA7EE /*  SPExtenshionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C02FEA1DE0BC44004DA7EE /*  SPExtenshionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4B874EE1DE20635009455F9 /* SPLaunchAnimationSlideExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLaunchAnimationSlideExtenshion.swift; sourceTree = "<group>"; };
+		F4C02F701DE0A4B0004DA7EE /* ParallaxTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C02F731DE0A4B0004DA7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4C02F7F1DE0A4B0004DA7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C02F871DE0A4C5004DA7EE /* SPAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimation.swift; sourceTree = "<group>"; };
+		F4C02F881DE0A4C5004DA7EE /* SPAnimationSpring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationSpring.swift; sourceTree = "<group>"; };
+		F4C02F891DE0A4C5004DA7EE /* SPAnimationUpward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationUpward.swift; sourceTree = "<group>"; };
+		F4C02F8B1DE0A4C5004DA7EE /* SPAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAudioPlayer.swift; sourceTree = "<group>"; };
+		F4C02F8D1DE0A4C5004DA7EE /* SPUIColorExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIColorExtenshion.swift; sourceTree = "<group>"; };
+		F4C02F8F1DE0A4C5004DA7EE /* SPConstraintsAssistent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConstraintsAssistent.swift; sourceTree = "<group>"; };
+		F4C02F911DE0A4C5004DA7EE /* SPDelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDelay.swift; sourceTree = "<group>"; };
+		F4C02F931DE0A4C5004DA7EE /* SPUIDeviceExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIDeviceExtenshion.swift; sourceTree = "<group>"; };
+		F4C02F961DE0A4C5004DA7EE /* SPBezierPathFigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBezierPathFigure.swift; sourceTree = "<group>"; };
+		F4C02F981DE0A4C5004DA7EE /* SPUIImageExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIImageExtenshion.swift; sourceTree = "<group>"; };
+		F4C02F9A1DE0A4C5004DA7EE /* SPInternetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPInternetConnection.swift; sourceTree = "<group>"; };
+		F4C02F9E1DE0A4C5004DA7EE /* SPLaunchAnimationTwitterExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLaunchAnimationTwitterExtenshion.swift; sourceTree = "<group>"; };
+		F4C02F9F1DE0A4C5004DA7EE /* TwitterLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwitterLaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4C02FA01DE0A4C5004DA7EE /* TwitterMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TwitterMedia.xcassets; sourceTree = "<group>"; };
+		F4C02FA11DE0A4C5004DA7EE /* SPLaunchAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLaunchAnimation.swift; sourceTree = "<group>"; };
+		F4C02FA31DE0A4C5004DA7EE /* SPRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRandom.swift; sourceTree = "<group>"; };
+		F4C02FA61DE0A4C5004DA7EE /* SPIconsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPIconsButton.swift; sourceTree = "<group>"; };
+		F4C02FA71DE0A4C5004DA7EE /* SPLinesCircleButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLinesCircleButtonsView.swift; sourceTree = "<group>"; };
+		F4C02FA81DE0A4C5004DA7EE /* SPRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRoundButton.swift; sourceTree = "<group>"; };
+		F4C02FAA1DE0A4C5004DA7EE /* SPGradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGradientViewController.swift; sourceTree = "<group>"; };
+		F4C02FAB1DE0A4C5004DA7EE /* SPPageItemsScallingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPageItemsScallingViewController.swift; sourceTree = "<group>"; };
+		F4C02FAC1DE0A4C5004DA7EE /* SPParalaxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPParalaxTableViewController.swift; sourceTree = "<group>"; };
+		F4C02FB01DE0A4C5004DA7EE /* SPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCollectionViewCell.swift; sourceTree = "<group>"; };
+		F4C02FB21DE0A4C5004DA7EE /* SPPageItemsScalingCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPageItemsScalingCollectionView.swift; sourceTree = "<group>"; };
+		F4C02FB41DE0A4C5004DA7EE /* SPPageItemsScalingCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPageItemsScalingCollectionLayout.swift; sourceTree = "<group>"; };
+		F4C02FB71DE0A4C5004DA7EE /* SPParallaxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPParallaxTableViewCell.swift; sourceTree = "<group>"; };
+		F4C02FBA1DE0A4C5004DA7EE /* SPBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBlurView.swift; sourceTree = "<group>"; };
+		F4C02FBB1DE0A4C5004DA7EE /* SPGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGradientView.swift; sourceTree = "<group>"; };
+		F4C02FBC1DE0A4C5004DA7EE /* SPUILabelExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUILabelExtenshion.swift; sourceTree = "<group>"; };
+		F4C02FBD1DE0A4C5004DA7EE /* SPUIViewExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIViewExtenshion.swift; sourceTree = "<group>"; };
+		F4C02FDC1DE0A93D004DA7EE /* DataAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAPI.swift; sourceTree = "<group>"; };
+		F4C02FDE1DE0A9A5004DA7EE /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		F4C02FE01DE0A9E5004DA7EE /* ParallaxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxTableViewCell.swift; sourceTree = "<group>"; };
+		F4C02FE21DE0AA85004DA7EE /* ParallaxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxTableViewController.swift; sourceTree = "<group>"; };
+		F4C02FE41DE0AB25004DA7EE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F4C02FE61DE0B5C8004DA7EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C02FE81DE0B613004DA7EE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4C02FEA1DE0BC44004DA7EE /*  SPExtenshionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " SPExtenshionViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C02F6D1DE0A4B0004DA7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4B874ED1DE2061D009455F9 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				F4B874EE1DE20635009455F9 /* SPLaunchAnimationSlideExtenshion.swift */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
+		F4C02F671DE0A4B0004DA7EE = {
+			isa = PBXGroup;
+			children = (
+				F4C02F721DE0A4B0004DA7EE /* ParallaxTableView */,
+				F4C02F711DE0A4B0004DA7EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C02F711DE0A4B0004DA7EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F701DE0A4B0004DA7EE /* ParallaxTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C02F721DE0A4B0004DA7EE /* ParallaxTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F731DE0A4B0004DA7EE /* AppDelegate.swift */,
+				F4C02F851DE0A4C5004DA7EE /* Sparrow */,
+				F4C02FE81DE0B613004DA7EE /* LaunchScreen.storyboard */,
+				F4C02FE61DE0B5C8004DA7EE /* Assets.xcassets */,
+				F4C02FDC1DE0A93D004DA7EE /* DataAPI.swift */,
+				F4C02FE41DE0AB25004DA7EE /* Main.storyboard */,
+				F4C02FDE1DE0A9A5004DA7EE /* NavigationController.swift */,
+				F4C02FE21DE0AA85004DA7EE /* ParallaxTableViewController.swift */,
+				F4C02FE01DE0A9E5004DA7EE /* ParallaxTableViewCell.swift */,
+				F4C02F7F1DE0A4B0004DA7EE /* Info.plist */,
+			);
+			path = ParallaxTableView;
+			sourceTree = "<group>";
+		};
+		F4C02F851DE0A4C5004DA7EE /* Sparrow */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F861DE0A4C5004DA7EE /* Animation */,
+				F4C02F8A1DE0A4C5004DA7EE /* Audio */,
+				F4C02F8C1DE0A4C5004DA7EE /* Color */,
+				F4C02F8E1DE0A4C5004DA7EE /* Constraints */,
+				F4C02F901DE0A4C5004DA7EE /* Delay */,
+				F4C02F921DE0A4C5004DA7EE /* Device */,
+				F4C02F941DE0A4C5004DA7EE /* Figure */,
+				F4C02F971DE0A4C5004DA7EE /* Image */,
+				F4C02F991DE0A4C5004DA7EE /* InternetConnection */,
+				F4C02F9B1DE0A4C5004DA7EE /* Launch */,
+				F4C02FA21DE0A4C5004DA7EE /* Random */,
+				F4C02FA41DE0A4C5004DA7EE /* UI */,
+			);
+			path = Sparrow;
+			sourceTree = "<group>";
+		};
+		F4C02F861DE0A4C5004DA7EE /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F871DE0A4C5004DA7EE /* SPAnimation.swift */,
+				F4C02F881DE0A4C5004DA7EE /* SPAnimationSpring.swift */,
+				F4C02F891DE0A4C5004DA7EE /* SPAnimationUpward.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		F4C02F8A1DE0A4C5004DA7EE /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F8B1DE0A4C5004DA7EE /* SPAudioPlayer.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		F4C02F8C1DE0A4C5004DA7EE /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F8D1DE0A4C5004DA7EE /* SPUIColorExtenshion.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		F4C02F8E1DE0A4C5004DA7EE /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F8F1DE0A4C5004DA7EE /* SPConstraintsAssistent.swift */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		F4C02F901DE0A4C5004DA7EE /* Delay */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F911DE0A4C5004DA7EE /* SPDelay.swift */,
+			);
+			path = Delay;
+			sourceTree = "<group>";
+		};
+		F4C02F921DE0A4C5004DA7EE /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F931DE0A4C5004DA7EE /* SPUIDeviceExtenshion.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		F4C02F941DE0A4C5004DA7EE /* Figure */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F951DE0A4C5004DA7EE /* BezierPathFigure */,
+			);
+			path = Figure;
+			sourceTree = "<group>";
+		};
+		F4C02F951DE0A4C5004DA7EE /* BezierPathFigure */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F961DE0A4C5004DA7EE /* SPBezierPathFigure.swift */,
+			);
+			path = BezierPathFigure;
+			sourceTree = "<group>";
+		};
+		F4C02F971DE0A4C5004DA7EE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F981DE0A4C5004DA7EE /* SPUIImageExtenshion.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		F4C02F991DE0A4C5004DA7EE /* InternetConnection */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F9A1DE0A4C5004DA7EE /* SPInternetConnection.swift */,
+			);
+			path = InternetConnection;
+			sourceTree = "<group>";
+		};
+		F4C02F9B1DE0A4C5004DA7EE /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F9C1DE0A4C5004DA7EE /* Animation */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		F4C02F9C1DE0A4C5004DA7EE /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F4B874ED1DE2061D009455F9 /* Slide */,
+				F4C02F9D1DE0A4C5004DA7EE /* asTwitter */,
+				F4C02FA11DE0A4C5004DA7EE /* SPLaunchAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		F4C02F9D1DE0A4C5004DA7EE /* asTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02F9E1DE0A4C5004DA7EE /* SPLaunchAnimationTwitterExtenshion.swift */,
+				F4C02F9F1DE0A4C5004DA7EE /* TwitterLaunchScreen.storyboard */,
+				F4C02FA01DE0A4C5004DA7EE /* TwitterMedia.xcassets */,
+			);
+			path = asTwitter;
+			sourceTree = "<group>";
+		};
+		F4C02FA21DE0A4C5004DA7EE /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FA31DE0A4C5004DA7EE /* SPRandom.swift */,
+			);
+			path = Random;
+			sourceTree = "<group>";
+		};
+		F4C02FA41DE0A4C5004DA7EE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FA51DE0A4C5004DA7EE /* Buttons */,
+				F4C02FA91DE0A4C5004DA7EE /* Controllers */,
+				F4C02FAD1DE0A4C5004DA7EE /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F4C02FA51DE0A4C5004DA7EE /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FA61DE0A4C5004DA7EE /* SPIconsButton.swift */,
+				F4C02FA71DE0A4C5004DA7EE /* SPLinesCircleButtonsView.swift */,
+				F4C02FA81DE0A4C5004DA7EE /* SPRoundButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F4C02FA91DE0A4C5004DA7EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FAA1DE0A4C5004DA7EE /* SPGradientViewController.swift */,
+				F4C02FAB1DE0A4C5004DA7EE /* SPPageItemsScallingViewController.swift */,
+				F4C02FAC1DE0A4C5004DA7EE /* SPParalaxTableViewController.swift */,
+				F4C02FEA1DE0BC44004DA7EE /*  SPExtenshionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4C02FAD1DE0A4C5004DA7EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FAE1DE0A4C5004DA7EE /* CollectionViews */,
+				F4C02FB51DE0A4C5004DA7EE /* TableViews */,
+				F4C02FB91DE0A4C5004DA7EE /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4C02FAE1DE0A4C5004DA7EE /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FAF1DE0A4C5004DA7EE /* Cells */,
+				F4C02FB11DE0A4C5004DA7EE /* CollectionViews */,
+				F4C02FB31DE0A4C5004DA7EE /* Layouts */,
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		F4C02FAF1DE0A4C5004DA7EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FB01DE0A4C5004DA7EE /* SPCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F4C02FB11DE0A4C5004DA7EE /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FB21DE0A4C5004DA7EE /* SPPageItemsScalingCollectionView.swift */,
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		F4C02FB31DE0A4C5004DA7EE /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FB41DE0A4C5004DA7EE /* SPPageItemsScalingCollectionLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		F4C02FB51DE0A4C5004DA7EE /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FB61DE0A4C5004DA7EE /* Cell */,
+				F4C02FB81DE0A4C5004DA7EE /* TableViews */,
+			);
+			path = TableViews;
+			sourceTree = "<group>";
+		};
+		F4C02FB61DE0A4C5004DA7EE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FB71DE0A4C5004DA7EE /* SPParallaxTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F4C02FB81DE0A4C5004DA7EE /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViews;
+			sourceTree = "<group>";
+		};
+		F4C02FB91DE0A4C5004DA7EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4C02FBA1DE0A4C5004DA7EE /* SPBlurView.swift */,
+				F4C02FBB1DE0A4C5004DA7EE /* SPGradientView.swift */,
+				F4C02FBC1DE0A4C5004DA7EE /* SPUILabelExtenshion.swift */,
+				F4C02FBD1DE0A4C5004DA7EE /* SPUIViewExtenshion.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4C02F6F1DE0A4B0004DA7EE /* ParallaxTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C02F821DE0A4B0004DA7EE /* Build configuration list for PBXNativeTarget "ParallaxTableView" */;
+			buildPhases = (
+				F4C02F6C1DE0A4B0004DA7EE /* Sources */,
+				F4C02F6D1DE0A4B0004DA7EE /* Frameworks */,
+				F4C02F6E1DE0A4B0004DA7EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxTableView;
+			productName = ParallaxTableView;
+			productReference = F4C02F701DE0A4B0004DA7EE /* ParallaxTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C02F681DE0A4B0004DA7EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ivan Vorobei";
+				TargetAttributes = {
+					F4C02F6F1DE0A4B0004DA7EE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MNM2TM9G7C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4C02F6B1DE0A4B0004DA7EE /* Build configuration list for PBXProject "ParallaxTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4C02F671DE0A4B0004DA7EE;
+			productRefGroup = F4C02F711DE0A4B0004DA7EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C02F6F1DE0A4B0004DA7EE /* ParallaxTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C02F6E1DE0A4B0004DA7EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C02FE51DE0AB25004DA7EE /* Main.storyboard in Resources */,
+				F4C02FCB1DE0A4C5004DA7EE /* TwitterMedia.xcassets in Resources */,
+				F4C02FE71DE0B5C8004DA7EE /* Assets.xcassets in Resources */,
+				F4C02FE91DE0B613004DA7EE /* LaunchScreen.storyboard in Resources */,
+				F4C02FCA1DE0A4C5004DA7EE /* TwitterLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C02F6C1DE0A4B0004DA7EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C02FC31DE0A4C5004DA7EE /* SPConstraintsAssistent.swift in Sources */,
+				F4C02FC71DE0A4C5004DA7EE /* SPUIImageExtenshion.swift in Sources */,
+				F4C02FC81DE0A4C5004DA7EE /* SPInternetConnection.swift in Sources */,
+				F4C02FDA1DE0A4C5004DA7EE /* SPUILabelExtenshion.swift in Sources */,
+				F4C02FCF1DE0A4C5004DA7EE /* SPLinesCircleButtonsView.swift in Sources */,
+				F4C02FDD1DE0A93D004DA7EE /* DataAPI.swift in Sources */,
+				F4C02FBF1DE0A4C5004DA7EE /* SPAnimationSpring.swift in Sources */,
+				F4C02FD71DE0A4C5004DA7EE /* SPParallaxTableViewCell.swift in Sources */,
+				F4C02FC61DE0A4C5004DA7EE /* SPBezierPathFigure.swift in Sources */,
+				F4C02FDF1DE0A9A5004DA7EE /* NavigationController.swift in Sources */,
+				F4C02FD91DE0A4C5004DA7EE /* SPGradientView.swift in Sources */,
+				F4C02FC41DE0A4C5004DA7EE /* SPDelay.swift in Sources */,
+				F4C02FE31DE0AA85004DA7EE /* ParallaxTableViewController.swift in Sources */,
+				F4C02FCE1DE0A4C5004DA7EE /* SPIconsButton.swift in Sources */,
+				F4C02FCC1DE0A4C5004DA7EE /* SPLaunchAnimation.swift in Sources */,
+				F4C02FD11DE0A4C5004DA7EE /* SPGradientViewController.swift in Sources */,
+				F4C02FC01DE0A4C5004DA7EE /* SPAnimationUpward.swift in Sources */,
+				F4C02FD21DE0A4C5004DA7EE /* SPPageItemsScallingViewController.swift in Sources */,
+				F4C02FE11DE0A9E5004DA7EE /* ParallaxTableViewCell.swift in Sources */,
+				F4C02FEB1DE0BC44004DA7EE /*  SPExtenshionViewController.swift in Sources */,
+				F4C02FC11DE0A4C5004DA7EE /* SPAudioPlayer.swift in Sources */,
+				F4C02F741DE0A4B0004DA7EE /* AppDelegate.swift in Sources */,
+				F4C02FC21DE0A4C5004DA7EE /* SPUIColorExtenshion.swift in Sources */,
+				F4C02FD31DE0A4C5004DA7EE /* SPParalaxTableViewController.swift in Sources */,
+				F4C02FDB1DE0A4C5004DA7EE /* SPUIViewExtenshion.swift in Sources */,
+				F4C02FC91DE0A4C5004DA7EE /* SPLaunchAnimationTwitterExtenshion.swift in Sources */,
+				F4C02FCD1DE0A4C5004DA7EE /* SPRandom.swift in Sources */,
+				F4C02FD51DE0A4C5004DA7EE /* SPPageItemsScalingCollectionView.swift in Sources */,
+				F4C02FD81DE0A4C5004DA7EE /* SPBlurView.swift in Sources */,
+				F4C02FBE1DE0A4C5004DA7EE /* SPAnimation.swift in Sources */,
+				F4C02FC51DE0A4C5004DA7EE /* SPUIDeviceExtenshion.swift in Sources */,
+				F4C02FD41DE0A4C5004DA7EE /* SPCollectionViewCell.swift in Sources */,
+				F4B874EF1DE20635009455F9 /* SPLaunchAnimationSlideExtenshion.swift in Sources */,
+				F4C02FD61DE0A4C5004DA7EE /* SPPageItemsScalingCollectionLayout.swift in Sources */,
+				F4C02FD01DE0A4C5004DA7EE /* SPRoundButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4C02F801DE0A4B0004DA7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4C02F811DE0A4B0004DA7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C02F831DE0A4B0004DA7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MNM2TM9G7C;
+				INFOPLIST_FILE = ParallaxTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.ivanvorobei.ParallaxTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4C02F841DE0A4B0004DA7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MNM2TM9G7C;
+				INFOPLIST_FILE = ParallaxTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.ivanvorobei.ParallaxTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C02F6B1DE0A4B0004DA7EE /* Build configuration list for PBXProject "ParallaxTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C02F801DE0A4B0004DA7EE /* Debug */,
+				F4C02F811DE0A4B0004DA7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C02F821DE0A4B0004DA7EE /* Build configuration list for PBXNativeTarget "ParallaxTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C02F831DE0A4B0004DA7EE /* Debug */,
+				F4C02F841DE0A4B0004DA7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C02F681DE0A4B0004DA7EE /* Project object */;
+}
