@@ -21,8 +21,8 @@ ParallaxTableView project is released under the MIT license. See LICENSE.md for 
 
 ## Contact:
  
-[http://hello.ivanorobei.by](http://hello.ivanorobei.by)
+[http://hello.ivanorobei.by](http://hello.ivanvorobei.by)
 
-[http://ivanorobei.by](http://ivanorobei.by)
+[http://ivanorobei.by](http://ivanvorobei.by)
 
 hello@ivanvorobei.by
