@@ -25,13 +25,14 @@ extension SPLaunchAnimation {
     
     private static let windowColor: UIColor = UIColor.black
     private static let animateDuration: TimeInterval = 1
-    private static let delay: TimeInterval = 0.4
+    private static let delay: TimeInterval = 0.8
     private static let paralaxTranslationXCoef: CGFloat = 0.3
     
     static func slideWithParalax(
         launchScreenStoryboardName: String = "LaunchScreen",
-        removeBGfromParalaxOnLaunchScreenView: Bool = true,
-        removeBGfromParalaxOnRootViewController: Bool = true,
+        disabelParalaxForFirstViewOnLaunchScreenView: Bool = true,
+        disabelParalaxForFirstViewOnRootViewController: Bool = true,
+        disabelParalaxForRootViewController: Bool = false,
         onWindow window: UIWindow) {
         
         window.backgroundColor = self.windowColor
@@ -41,8 +42,8 @@ extension SPLaunchAnimation {
         window.rootViewController?.view.frame.origin.x += screenBounds.width
         
         var rootViewControllerSubviews = (window.rootViewController?.view.subviews)!
-        //for remove bg
-        if (removeBGfromParalaxOnRootViewController) {
+
+        if (disabelParalaxForFirstViewOnRootViewController) {
             rootViewControllerSubviews.removeFirst()
         }
         
@@ -51,13 +52,19 @@ extension SPLaunchAnimation {
         window.addSubview(launchScreenView)
         
         var launchScreenViewSubviews = launchScreenView.subviews
-        //for remove bg
-        if (removeBGfromParalaxOnLaunchScreenView) {
+
+        if (disabelParalaxForFirstViewOnLaunchScreenView) {
             launchScreenViewSubviews.removeFirst()
         }
         
         for view in rootViewControllerSubviews {
-            view.transform = CGAffineTransform(translationX: screenBounds.width * self.paralaxTranslationXCoef, y: 0)
+            var paralaxTranslationXCoef = self.paralaxTranslationXCoef
+            
+            if disabelParalaxForRootViewController {
+                paralaxTranslationXCoef = 0
+            }
+            
+            view.transform = CGAffineTransform(translationX: screenBounds.width * paralaxTranslationXCoef, y: 0)
         }
         
         SPAnimationSpring.animate(

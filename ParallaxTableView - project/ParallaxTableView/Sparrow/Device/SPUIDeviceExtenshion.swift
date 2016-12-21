@@ -99,7 +99,7 @@ public extension UIDevice {
 
 public extension UIDevice {
     
-    public enum SPDeviceOrientation {
+    public enum deviceOrientation {
         case Portrait
         case Landscape
     }

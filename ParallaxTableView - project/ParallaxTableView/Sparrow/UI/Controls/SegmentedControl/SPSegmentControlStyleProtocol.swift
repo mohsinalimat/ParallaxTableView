@@ -19,26 +19,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import UIKit
+import Foundation
 
-// MARK: - convertToImage
-extension UIView {
+@objc protocol SPSegmentControlCellStyleDelegate {
     
-    func convertToImage() -> UIImage {
-        return UIImage.drawFromView(view: self)
-    }
-}
-
-// MARK: - gradeView
-extension UIView {
+    @objc optional func selectedState(segmentControlCell: SPSegmentedControlCell, forIndex index: Int)
     
-    func addGrade(alpha: CGFloat, color: UIColor = UIColor.black) {
-        let gradeView = UIView.init()
-        gradeView.alpha = 0
-        self.addSubview(gradeView)
-        SPConstraintsAssistent.setEqualSizeConstraint(gradeView, superVuew: self)
-        gradeView.alpha = alpha
-        gradeView.backgroundColor = color
-    }
+    @objc optional func normalState(segmentControlCell: SPSegmentedControlCell,  forIndex index: Int)
 }
-

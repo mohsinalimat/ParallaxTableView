@@ -107,7 +107,6 @@ struct SPConstraintsAssistent {
             attribute: .centerX,
             multiplier: 1, constant: 0
         )
-        //centerXConstraint.isActive = true
         
         let centerYConstraint = NSLayoutConstraint(
             item: subView,
@@ -117,7 +116,6 @@ struct SPConstraintsAssistent {
             attribute: .centerY,
             multiplier: 1, constant: 0
         )
-        //centerYConstraint.isActive = true
         
         superView.addConstraints([
             centerXConstraint, centerYConstraint

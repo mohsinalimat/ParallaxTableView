@@ -21,24 +21,7 @@
 
 import UIKit
 
-// MARK: - convertToImage
-extension UIView {
+@objc protocol SPSegmentControlDelegate {
     
-    func convertToImage() -> UIImage {
-        return UIImage.drawFromView(view: self)
-    }
+    @objc optional func indicatorViewRelativPosition(position: CGFloat, onSegmentControl segmentControl: SPSegmentedControl)
 }
-
-// MARK: - gradeView
-extension UIView {
-    
-    func addGrade(alpha: CGFloat, color: UIColor = UIColor.black) {
-        let gradeView = UIView.init()
-        gradeView.alpha = 0
-        self.addSubview(gradeView)
-        SPConstraintsAssistent.setEqualSizeConstraint(gradeView, superVuew: self)
-        gradeView.alpha = alpha
-        gradeView.backgroundColor = color
-    }
-}
-

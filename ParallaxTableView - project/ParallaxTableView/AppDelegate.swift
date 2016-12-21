@@ -29,8 +29,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        SPLaunchAnimation.slideWithParalax(
+            disabelParalaxForFirstViewOnLaunchScreenView: false,
+            disabelParalaxForFirstViewOnRootViewController: false,
+            disabelParalaxForRootViewController: true,
+            onWindow: self.window!
+        )
         
-        SPLaunchAnimation.slideWithParalax(removeBGfromParalaxOnLaunchScreenView: false, removeBGfromParalaxOnRootViewController: false, onWindow: self.window!)
         return true
     }
 

@@ -16,7 +16,7 @@ class SPPageItemsScalingCollectionLayout: UICollectionViewFlowLayout {
     var scalingOffset: CGFloat = 200
     var minimumScaleFactor: CGFloat = 0.9
     var minimumAlphaFactor: CGFloat = 0.3
-
+    
     var pageWidth: CGFloat {
         get {
             return self.itemSize.width + self.minimumLineSpacing
@@ -55,6 +55,7 @@ class SPPageItemsScalingCollectionLayout: UICollectionViewFlowLayout {
                 return super.layoutAttributesForElements(in: rect)
         }
         if scaleItems == false {
+            
             return super.layoutAttributesForElements(in: rect)
         }
         
